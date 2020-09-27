@@ -28,9 +28,9 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-				cd ${WORKSPACE}/Sreenath
+		cd ${WORKSPACE}/Sreenath/Sreenath_001/
                 mvn clean install -U  -Dmaven.test.skip=true 
-		           '''
+		   '''
             }
         
             }
