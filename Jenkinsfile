@@ -28,9 +28,9 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-				cd ${WORKSPACE}/Mounika
+		cd ${WORKSPACE}/Mounika/Mounika_001/
                 mvn clean install -U  -Dmaven.test.skip=true 
-		           '''
+		   '''
             }
         
             }
