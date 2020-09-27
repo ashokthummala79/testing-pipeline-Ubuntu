@@ -1,4 +1,8 @@
+<<<<<<< HEAD:Sreenath/Sreenath_001/src/test/java/sree/nath/vad/AppTest.java
 package sree.nath.vad;
+=======
+package dinu.poori.rishi;
+>>>>>>> 27ee6258839d1eede282ffcb5a05bff999c99fb7:Rajyalakshmi/Rajyalakshmi_001/src/test/java/dinu/poori/rishi/AppTest.java
 
 import junit.framework.Test;
 import junit.framework.TestCase;

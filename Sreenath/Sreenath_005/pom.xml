@@ -1,11 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD:Sreenath/Sreenath_005/pom.xml
   <groupId>sree.nath.vad</groupId>
   <artifactId>Sreenath_005</artifactId>
   <packaging>war</packaging>
   <version>5.0</version>
   <name>Sreenath_005 Maven Webapp</name>
+=======
+  <groupId>dinu.poori.rishi</groupId>
+  <artifactId>Rajyalakshmi_005</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Rajyalakshmi_005 Maven Webapp</name>
+>>>>>>> 27ee6258839d1eede282ffcb5a05bff999c99fb7:Rajyalakshmi/Rajyalakshmi_005/pom.xml
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,6 +24,10 @@
     </dependency>
   </dependencies>
   <build>
+<<<<<<< HEAD:Sreenath/Sreenath_005/pom.xml
     <finalName>Sreenath_005</finalName>
+=======
+    <finalName>Rajyalakshmi_005</finalName>
+>>>>>>> 27ee6258839d1eede282ffcb5a05bff999c99fb7:Rajyalakshmi/Rajyalakshmi_005/pom.xml
   </build>
 </project>
