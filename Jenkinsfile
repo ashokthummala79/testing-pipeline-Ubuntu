@@ -21,16 +21,16 @@ tools {
 		stage('GIT') {
             
 	       steps {
-                sh 'git clone https://github.com/ashokthummala79/testing-pipeline.git'
+                sh 'git clone hhttps://github.com/ashokthummala79/testing-pipeline.git'
             }
         
         }
 		stage('Maven') {
             steps {
                 sh '''
-				cd ${WORKSPACE}/Rajyalakshmi
+		cd ${WORKSPACE}/Rajyalakshmi/Rajyalakshmi_001/
                 mvn clean install -U  -Dmaven.test.skip=true 
-		           '''
+		   '''
             }
         
             }
