@@ -23,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Sreenath/Sreenath_ROOT/
+		cd ${WORKSPACE}/testing-pipeline-Ubuntu/Sreenath/Sreenath_ROOT/
                 mvn clean install
                    '''
             }
