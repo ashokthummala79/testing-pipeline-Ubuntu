@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+		stage('Build from Maven ROOT')
+			{
+			steps {
+			echo "building root POM from maven project"
+			bat 'C:/Programme/apache-maven-3.6.3-bin/apache-maven-3.6.3/bin/mvn -f Mounika/Mounika_ROOT/pom.xml clean install'
+				}
+			}
+		stage('Deployment')
+			{
+			steps {
+			echo "Deploying to Tomcat Servers"
+			bat 'echo y | "C:/Programme/putty/pscp" -i "C:/DevOps/tools/batch7.ppk" Mounika/Mounika_004/target/Mounika_004.war ec2-user@15.206.122.91:/skkdevops/installables/'
+			bat 'echo y | "C:/Programme/putty/plink" -i "C:/DevOps/tools/batch7.ppk" ec2-user@15.206.122.91 /skkdevops/scripts/tc_deploy Mounika_004 mounika /skkdevops/installables/'
+			}
+			}
+}
+}
