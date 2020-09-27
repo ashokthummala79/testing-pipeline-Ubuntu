@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>thummala.venkata.ashok</groupId>
+	<artifactId>Ashokkumar_ROOT</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Ashokkumar_ROOT</name>
+
+	<modules>
+		<module>../Ashokkumar_001</module>
+		<module>../Ashokkumar_002</module>
+		<module>../Ashokkumar_003</module>
+		<module>../Ashokkumar_004</module>
+		<module>../Ashokkumar_005</module>
+		<module>../Ashokkumar_006</module>
+		<module>../Ashokkumar_007</module>
+		<module>../Ashokkumar_008</module>
+	</modules>
+	  
+</project>

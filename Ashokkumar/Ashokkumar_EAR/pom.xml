@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>thummala.venkata.ashok</groupId>
+	    <artifactId>Ashokkumar_ROOT</artifactId>
+	    <version>1.0-SNAPSHOT</version>
+		<relativePath>../Ashokkumar_ROOT</relativePath>
+	</parent>
+	<groupId>thummala.venkata.ashok</groupId>
+	<artifactId>Ashokkumar_EAR</artifactId>
+	<packaging>ear</packaging>
+	<version>2.0</version>
+	<name>Ashokkumar_EAR</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+            <artifactId>Ashokkumar_001</artifactId>
+            <type>jar</type>
+            <version>1.0-SNAPSHOT</version>
+		</dependency>
+        <dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_002</artifactId>
+            <type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_003</artifactId>
+		    <type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_004</artifactId>
+			<type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+            <artifactId>Ashokkumar_005</artifactId>
+            <type>war</type>
+            <version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_006</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_007</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>thummala.venkata.ashok</groupId>
+			<artifactId>Ashokkumar_008</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Release Repository</name>
+			<url>http://ec2amaz-9id4gcf:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshot Repository</name>
+			<url>http://ec2amaz-9id4gcf:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+    </distributionManagement>  
+</project>
+
+
+
