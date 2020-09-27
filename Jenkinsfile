@@ -21,22 +21,14 @@ tools {
 		stage('GIT') {
             
 	       steps {
-<<<<<<< HEAD:Jenkinsfile
                 sh 'git clone hhttps://github.com/ashokthummala79/testing-pipeline.git'
-=======
-                sh 'git clone https://github.com/ashokthummala79/testing-pipeline.git'
->>>>>>> b65c158740d6e2b0cfc355873e75a7640625768a:Jenkinsfile.txt
             }
         
         }
 		stage('Maven') {
             steps {
                 sh '''
-<<<<<<< HEAD:Jenkinsfile
-		cd ${WORKSPACE}/Mounika/Mounika_001/
-=======
-				cd ${WORKSPACE}/Rajyalakshmi
->>>>>>> b65c158740d6e2b0cfc355873e75a7640625768a:Jenkinsfile.txt
+		cd ${WORKSPACE}/Mounika/
                 mvn clean install -U  -Dmaven.test.skip=true 
 		   '''
             }
