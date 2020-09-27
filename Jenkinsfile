@@ -1,34 +1,12 @@
 pipeline {
     agent any
-
-tools {
-        jdk 'Java8'
-        maven 'Maven-3.3.9'
-
-      }
-
     stages {
-        stage ('Cleanup the Workspace') {
-           steps {
-            cleanWs()
-          }
-        }
-		stage('GIT') {
-            
-	       steps {
-                sh 'git clone https://github.com/ashokthummala79/testing-pipeline.git'
-            }
-        
-        }
-		stage('Maven') {
-            steps {
-                sh '''
-		cd ${WORKSPACE}/Ashokkumar/
-                mvn clean install -U  -Dmaven.test.skip=true 
-		   '''
-            }
-        
-            }
-		
-	}
+		stage('Build from Maven ROOT')
+			{
+			steps {
+			echo "building root POM from maven project"
+			bat 'C:/Programme/apache-maven-3.6.3-bin/apache-maven-3.6.3/bin/mvn -f Ashokkumar/Ashokkumar_ROOT/pom.xml clean install'
+				}
+			}
+    }
 }
