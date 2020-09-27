@@ -21,7 +21,7 @@ tools {
 		stage('GIT') {
             
 	       steps {
-                sh 'git clone hhttps://github.com/ashokthummala79/testing-pipeline.git'
+                sh 'git clone https://github.com/ashokthummala79/testing-pipeline.git'
             }
         
         }
