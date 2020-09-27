@@ -23,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Rajyalakshmi/Rajyalakshmi_ROOT/
+		cd ${WORKSPACE}/testing-pipeline-Ubuntu/Rajyalakshmi/Rajyalakshmi_ROOT/
                 mvn clean install
                    '''
             }
