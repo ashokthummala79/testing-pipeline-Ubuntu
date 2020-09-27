@@ -23,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Ashokkumar/Ashokkumar_ROOT/
+		cd ${WORKSPACE}/testing-pipeline-Ubuntu/Ashokkumar/Ashokkumar_ROOT/
                 mvn clean install
                    '''
             }
