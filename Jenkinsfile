@@ -23,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Mounika/Mounika_ROOT/
+		cd ${WORKSPACE}/Rajyalakshmi/Rajyalakshmi_ROOT/
                 mvn clean install
                    '''
             }
