@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.mycompany.app</groupId>
+		<artifactId>Rajyalakshmi_ROOT</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../Rajyalakshmi_ROOT</relativePath>
+	</parent>
+	<groupId>com.mycompany.app</groupId>
+	<artifactId>Rajyalakshmi</artifactId>
+	<packaging>ear</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>Rajyalakshmi</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_001</artifactId>
+				<type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+		
+		</dependency>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_002</artifactId>
+			<type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_003</artifactId>
+				<type>jar</type>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_004</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_005</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>dinu.poori.rishi</groupId>
+			<artifactId>Rajyalakshmi_006</artifactId>
+			<type>war</type>
+			<version>1.0-SNAPSHOT</version>
+			
+		</dependency>
+		
+		
+			
+	</dependencies>
+      <distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Release Repository</name>
+			<url>http://LAPTOP-6ANJVVAI:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshot Repository</name>
+			<url>http://LAPTOP-6ANJVVAI:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement> 
+
+</project>
