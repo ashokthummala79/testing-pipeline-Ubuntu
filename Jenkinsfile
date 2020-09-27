@@ -8,5 +8,5 @@ pipeline {
 			bat 'C:/ProgramFiles/apache-maven-3.6.0-bin/apache-maven-3.6.0/bin/mvn -f Ashokkumar/Ashokkumar_ROOT/pom.xml clean install'
 				}
 			}
-    }
+}
 }
