@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mycompany.app</groupId>
+	<artifactId>Rajyalakshmi_ROOT</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Rajyalakshmi_ROOT</name>
+
+	<modules>
+		<module>../Rajyalakshmi_001</module>
+		<module>../Rajyalakshmi_002</module>
+		<module>../Rajyalakshmi_003</module>
+		<module>../Rajyalakshmi_004</module>
+		<module>../Rajyalakshmi_005</module>
+        <module>../Rajyalakshmi_006</module>
+	</modules>
+	      <distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Release Repository</name>
+			<url>http://LAPTOP-6ANJVVAI:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshot Repository</name>
+			<url>http://LAPTOP-6ANJVVAI:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
