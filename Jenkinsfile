@@ -23,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Ashokkumar/Ashokkumar_ROOT/
+		cd ${WORKSPACE}/Sreenath/Sreenath_ROOT/
                 mvn clean install
                    '''
             }
