@@ -1,11 +1,6 @@
 pipeline {
     agent any
-environment {
 
-      sonar_url = 'http://localhost:9000/'
-      sonar_username = 'admin'
-      sonar_password = 'admin'
-}
 tools {
         jdk 'Java8'
         maven 'Maven-3.3.9'
@@ -28,7 +23,7 @@ tools {
 		stage('Maven') {
             steps {
                 sh '''
-		cd ${WORKSPACE}/Sreenath/Sreenath_001/
+		cd ${WORKSPACE}/Sreenath/
                 mvn clean install -U  -Dmaven.test.skip=true 
 		   '''
             }
